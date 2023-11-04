@@ -20,16 +20,16 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="CAPDefinitionIn theoretical computer science, the CAP theorem, also named Brewer’s theorem after computer scientist Eric Brewer, states that any distributed data store can provide only two of the foll">
+  <meta name="description" content="CAP and BASE Theorem">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CAP and BASE Theorem">
 <meta property="og:url" content="http://example.com/2023/11/04/CAP-BASE/index.html">
 <meta property="og:site_name" content="树滂的落叶">
-<meta property="og:description" content="CAPDefinitionIn theoretical computer science, the CAP theorem, also named Brewer’s theorem after computer scientist Eric Brewer, states that any distributed data store can provide only two of the foll">
+<meta property="og:description" content="CAP and BASE Theorem">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2023/png/38373106/1698518185421-e55f0b31-6c77-4057-b5c0-33f08d2429d8.png#averageHue=%23d7e4b9&clientId=ucc119fa9-213c-4&from=paste&id=u33e5dcb9&originHeight=219&originWidth=220&originalType=url&ratio=1&rotation=0&showTitle=false&size=25893&status=done&style=none&taskId=ub22a2ee4-0555-4b31-96ed-9d0e0fa8082&title=">
 <meta property="article:published_time" content="2023-11-03T21:47:13.000Z">
-<meta property="article:modified_time" content="2023-11-04T15:59:52.307Z">
+<meta property="article:modified_time" content="2023-11-04T17:04:22.581Z">
 <meta property="article:author" content="树滂的落叶">
 <meta property="article:tag" content="分布式系统">
 <meta property="article:tag" content="数据一致性">
@@ -192,10 +192,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2023-11-04 05:47:13 / 修改时间：23:59:52" itemprop="dateCreated datePublished" datetime="2023-11-04T05:47:13+08:00">2023-11-04</time>
+              <time title="创建时间：2023-11-04 05:47:13" itemprop="dateCreated datePublished" datetime="2023-11-04T05:47:13+08:00">2023-11-04</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-11-05 01:04:22" itemprop="dateModified" datetime="2023-11-05T01:04:22+08:00">2023-11-05</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -209,7 +215,7 @@
           
             <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-eye"></i>
               </span>
               <span class="post-meta-item-text">阅读次数：</span>
               <span id="busuanzi_value_page_pv"></span>
@@ -249,6 +255,13 @@
 
 
         
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/03/10/recalling-jin-yong/" rel="prev" title="忆金庸">
+      <i class="fa fa-chevron-left"></i> 忆金庸
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
       </footer>
     
   </article>
@@ -321,20 +334,20 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -379,19 +392,21 @@
     <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-user"></i>
-      </span>
-      <span class="site-uv" title="总访客量">
+      </span>      
+      <span class="site-uv" title="总访客量">        
         <span id="busuanzi_value_site_uv"></span>
       </span>
+      人
     </span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-eye"></i>
-      </span>
+      </span>      
       <span class="site-pv" title="总访问量">
         <span id="busuanzi_value_site_pv"></span>
       </span>
+      次
     </span>
 </div>
 
