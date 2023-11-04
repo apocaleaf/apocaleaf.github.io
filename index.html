@@ -27,7 +27,7 @@
 <meta property="og:site_name" content="树滂的落叶">
 <meta property="og:description" content="树滂的落叶与雪碧喵">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="apocaleaf">
+<meta property="article:author" content="树滂的落叶">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://example.com/">
@@ -116,19 +116,29 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
-
-  </li>
         <li class="menu-item menu-item-categories">
 
     <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
 
   </li>
-        <li class="menu-item menu-item-archives">
+        <li class="menu-item menu-item-tags">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-spritecat">
+
+    <a href="/spritecat/" rel="section"><i class="fa fa-cat fa-fw"></i>雪碧喵</a>
+
+  </li>
+        <li class="menu-item menu-item-football">
+
+    <a href="/football/" rel="section"><i class="fa fa-futbol fa-fw"></i>足球</a>
+
+  </li>
+        <li class="menu-item menu-item-essay">
+
+    <a href="/essay/" rel="section"><i class="fa fa-edit fa-fw"></i>杂记</a>
 
   </li>
         <li class="menu-item menu-item-about">
@@ -167,7 +177,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="apocaleaf">
+      <meta itemprop="name" content="树滂的落叶">
       <meta itemprop="description" content="树滂的落叶与雪碧喵">
     </span>
 
@@ -188,7 +198,16 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2023-11-04 05:47:13 / 修改时间：20:26:04" itemprop="dateCreated datePublished" datetime="2023-11-04T05:47:13+08:00">2023-11-04</time>
+              <time title="创建时间：2023-11-04 05:47:13 / 修改时间：23:59:52" itemprop="dateCreated datePublished" datetime="2023-11-04T05:47:13+08:00">2023-11-04</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/" itemprop="url" rel="index"><span itemprop="name">分布式系统</span></a>
+                </span>
             </span>
 
           
@@ -202,15 +221,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          Consistency Every read receives the most recent write or an error.
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2023/11/04/CAP-BASE/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
+          <h1 id="CAP"><a href="#CAP" class="headerlink" title="CAP"></a>CAP</h1><h2 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h2><p>In <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Theoretical_computer_science">theoretical computer science</a>, the CAP theorem, also named Brewer’s theorem after computer scientist <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Eric_Brewer_(scientist)">Eric Brewer</a>, states that any <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Distributed_data_store">distributed data store</a> can provide only <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Trilemma">two of the following three</a> guarantees:<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Gilbert_Lynch-1">[1]</a><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-2">[2]</a><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-3">[3]</a><br><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Consistency_model">Consistency</a><br>Every read receives the most recent write or an error.<br><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Availability">Availability</a><br>Every request receives a (non-error) response, without the guarantee that it contains the most recent write.<br><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Network_partitioning">Partition tolerance</a><br>The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes.<br>When a <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Network_partition">network partition</a> failure happens, it must be decided whether to do one of the following:</p>
+<ul>
+<li>cancel the operation and thus decrease the availability but ensure consistency</li>
+<li>proceed with the operation and thus provide availability but risk inconsistency.</li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/File:CAP_Theorem_Venn_Diagram.png"><img src="https://cdn.nlark.com/yuque/0/2023/png/38373106/1698518185421-e55f0b31-6c77-4057-b5c0-33f08d2429d8.png#averageHue=%23d7e4b9&clientId=ucc119fa9-213c-4&from=paste&id=u33e5dcb9&originHeight=219&originWidth=220&originalType=url&ratio=1&rotation=0&showTitle=false&size=25893&status=done&style=none&taskId=ub22a2ee4-0555-4b31-96ed-9d0e0fa8082&title=" alt="image.png"></a><br>CAP Theorem Venn Diagram<br>Thus, if there is a network partition, one has to choose between consistency or availability. Note that consistency as defined in the CAP theorem is quite different from the consistency guaranteed in <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/ACID">ACID</a> <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Database_transaction">database transactions</a>.<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-4">[4]</a></p>
+<h2 id="Explanation"><a href="#Explanation" class="headerlink" title="Explanation"></a>Explanation</h2><p>No distributed system is safe from network failures, thus network partitioning generally has to be tolerated.<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-5">[5]</a><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-6">[6]</a> In the presence of a partition, one is then left with two options: consistency or <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Availability">availability</a>. When choosing consistency over availability, the system will return an error or a time out if particular information cannot be guaranteed to be up to date due to network partitioning. When choosing availability over consistency, the system will always process the query and try to return the most recent available version of the information, even if it cannot guarantee it is up to date due to network partitioning.<br>In the absence of a partition, both availability and consistency can be satisfied.<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-paclec-7">[7]</a><br>Database systems designed with traditional <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/ACID">ACID</a> guarantees in mind such as <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Relational_database_management_system">RDBMS</a> choose <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Consistency_(database_systems)">consistency</a> over availability, whereas systems designed around the <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Eventual_consistency">BASE</a> philosophy, common in the <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/NoSQL">NoSQL</a> movement for example, choose availability over consistency.<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Brewer2012-8">[8]</a></p>
+<h2 id="History"><a href="#History" class="headerlink" title="History"></a>History</h2><p>According to <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/University_of_California,_Berkeley">University of California, Berkeley</a> computer scientist <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Eric_Brewer_(scientist)">Eric Brewer</a>, the theorem first appeared in autumn 1998.<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Brewer2012-8">[8]</a> It was published as the CAP principle in 1999<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Brewer1999-9">[9]</a> and presented as a <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Conjecture">conjecture</a> by Brewer at the 2000 <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Symposium_on_Principles_of_Distributed_Computing">Symposium on Principles of Distributed Computing</a> (PODC).<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Brewer2000-10">[10]</a> In 2002, <a target="_blank" rel="noopener" href="https://en.wikipedia.org/w/index.php?title=Seth_Gilbert&action=edit&redlink=1">Seth Gilbert</a> and <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Nancy_Lynch">Nancy Lynch</a> of <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/MIT">MIT</a> published a formal proof of Brewer’s conjecture, rendering it a <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Theorem">theorem</a>.<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Gilbert_Lynch-1">[1]</a><br>In 2012, Brewer clarified some of his positions, including why the often-used “two out of three” concept can be somewhat misleading because system designers only need to sacrifice consistency or availability in the presence of partitions; partition management and recovery techniques exist. Brewer also noted the different definition of consistency used in the CAP theorem relative to the definition used in <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/ACID">ACID</a>.<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-Brewer2012-8">[8]</a><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-:0-11">[11]</a><br>A similar theorem stating the trade-off between consistency and availability in distributed systems was published by Birman and Friedman in 1996.<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-12">[12]</a> Birman and Friedman’s result restricted this lower bound to non-commuting operations.<br>The <a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/PACELC_theorem">PACELC theorem</a>, introduced in 2010,<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/CAP_theorem#cite_note-paclec-7">[7]</a> builds on CAP by stating that even in the absence of partitioning, there is another trade-off between latency and consistency. PACELC means, if partition (P) happens, the trade-off is between availability (A) and consistency (C); Else (E), the trade-off is between latency (L) and consistency (C).</p>
+
       
     </div>
 
@@ -283,23 +302,30 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="apocaleaf"
+    <img class="site-author-image" itemprop="image" alt="树滂的落叶"
       src="/images/avatar.jpg">
-  <p class="site-author-name" itemprop="name">apocaleaf</p>
+  <p class="site-author-name" itemprop="name">树滂的落叶</p>
   <div class="site-description" itemprop="description">树滂的落叶与雪碧喵</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
+          <a href="/archives">
           <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
       <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
         <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">标签</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -334,10 +360,30 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">apocaleaf</span>
+  <span class="author" itemprop="copyrightHolder">树滂的落叶</span>
 </div>
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
 
 
 
