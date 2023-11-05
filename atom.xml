@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-11-05T01:46:25.034Z</updated>
+  <updated>2023-11-05T14:27:33.396Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>CAP定律与BASE理论</title>
-    <link href="http://example.com/2023/11/15/distributdsystem/cap-base/"/>
-    <id>http://example.com/2023/11/15/distributdsystem/cap-base/</id>
+    <link href="http://example.com/2023/11/15/cap-base/"/>
+    <id>http://example.com/2023/11/15/cap-base/</id>
     <published>2023-11-15T00:05:58.000Z</published>
-    <updated>2023-11-05T01:46:25.034Z</updated>
+    <updated>2023-11-05T14:27:33.396Z</updated>
     
     
     
@@ -39,10 +39,10 @@
   
   <entry>
     <title>搭建医疗AI系统的目的</title>
-    <link href="http://example.com/2023/11/05/medicalAI/medical-ai-purpose/"/>
-    <id>http://example.com/2023/11/05/medicalAI/medical-ai-purpose/</id>
+    <link href="http://example.com/2023/11/05/medical-ai-purpose/"/>
+    <id>http://example.com/2023/11/05/medical-ai-purpose/</id>
     <published>2023-11-05T00:57:20.000Z</published>
-    <updated>2023-11-05T13:02:32.461Z</updated>
+    <updated>2023-11-05T14:33:17.052Z</updated>
     
     
     <summary type="html">本文算是《搭建医疗AI应用》这个系统的前言，我计划花未来一段时间自建一个医疗AI系统，记录一下起因、愿景和目标</summary>
@@ -58,16 +58,15 @@
   
   <entry>
     <title>企业级应用分布式架构演变过程</title>
-    <link href="http://example.com/2023/11/04/distributdsystem/distributed-systems-history/"/>
-    <id>http://example.com/2023/11/04/distributdsystem/distributed-systems-history/</id>
+    <link href="http://example.com/2023/11/04/distributed-systems-history/"/>
+    <id>http://example.com/2023/11/04/distributed-systems-history/</id>
     <published>2023-11-04T13:59:14.000Z</published>
-    <updated>2023-11-05T14:17:09.370Z</updated>
+    <updated>2023-11-05T14:37:47.745Z</updated>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/%E4%BC%81%E4%B8%9A%E7%BA%A7%E6%9E%B6%E6%9E%84%E6%BC%94%E5%8F%98%E5%8F%91%E5%B1%95%E8%BF%9B%E7%A8%8B.svg&quot;&gt;&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/../pic/distributed-systems-history/%E4%BC%81%E4%B8%9A%E7%BA%A7%E6%9E%B6%E6%9E%84%E6%BC%94%E5%8F%98%E5%8F%91%E5%B1%95%E8%BF%9B%</summary>
       
     
     
