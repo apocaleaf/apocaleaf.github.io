@@ -6,7 +6,7 @@
   <link href="http://apocaleaf.github.io/atom.xml" rel="self"/>
   
   <link href="http://apocaleaf.github.io/"/>
-  <updated>2023-11-05T14:45:13.282Z</updated>
+  <updated>2023-11-05T15:39:38.682Z</updated>
   <id>http://apocaleaf.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://apocaleaf.github.io/2023/11/15/cap-base/"/>
     <id>http://apocaleaf.github.io/2023/11/15/cap-base/</id>
     <published>2023-11-15T00:05:58.000Z</published>
-    <updated>2023-11-05T14:45:13.282Z</updated>
+    <updated>2023-11-05T15:39:38.682Z</updated>
     
     
     
     
-    <category term="SpringCloud" scheme="http://apocaleaf.github.io/categories/SpringCloud/"/>
+    <category term="分布式系统" scheme="http://apocaleaf.github.io/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/"/>
     
     
-    <category term="分布式系统" scheme="http://apocaleaf.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/"/>
+    <category term="分布式相关理论" scheme="http://apocaleaf.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E7%9B%B8%E5%85%B3%E7%90%86%E8%AE%BA/"/>
     
     <category term="数据一致性" scheme="http://apocaleaf.github.io/tags/%E6%95%B0%E6%8D%AE%E4%B8%80%E8%87%B4%E6%80%A7/"/>
     
@@ -40,7 +40,7 @@
     <link href="http://apocaleaf.github.io/2023/11/05/medical-ai-purpose/"/>
     <id>http://apocaleaf.github.io/2023/11/05/medical-ai-purpose/</id>
     <published>2023-11-05T00:57:20.000Z</published>
-    <updated>2023-11-05T14:33:17.052Z</updated>
+    <updated>2023-11-05T15:36:43.328Z</updated>
     
     
     <summary type="html">本文算是《搭建医疗AI应用》这个系统的前言，我计划花未来一段时间自建一个医疗AI系统，记录一下起因、愿景和目标</summary>
@@ -59,7 +59,7 @@
     <link href="http://apocaleaf.github.io/2023/11/04/distributed-systems-history/"/>
     <id>http://apocaleaf.github.io/2023/11/04/distributed-systems-history/</id>
     <published>2023-11-04T13:59:14.000Z</published>
-    <updated>2023-11-05T14:48:08.407Z</updated>
+    <updated>2023-11-05T15:39:42.127Z</updated>
     
     
       
@@ -69,10 +69,10 @@
     
     
     
-    <category term="SpringCloud" scheme="http://apocaleaf.github.io/categories/SpringCloud/"/>
+    <category term="分布式系统" scheme="http://apocaleaf.github.io/categories/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/"/>
     
     
-    <category term="分布式系统" scheme="http://apocaleaf.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/"/>
+    <category term="分布式相关理论" scheme="http://apocaleaf.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E7%9B%B8%E5%85%B3%E7%90%86%E8%AE%BA/"/>
     
   </entry>
   
@@ -81,7 +81,7 @@
     <link href="http://apocaleaf.github.io/2019/03/10/recalling-jin-yong/"/>
     <id>http://apocaleaf.github.io/2019/03/10/recalling-jin-yong/</id>
     <published>2019-03-09T17:05:58.000Z</published>
-    <updated>2023-11-05T00:50:25.153Z</updated>
+    <updated>2023-11-05T15:38:22.110Z</updated>
     
     
     <summary type="html">金庸先生已经离开几个月了，一直想写点什么纪念一下，但是总觉得写不好迟迟没用动笔。手机里突然随机播放到了陈淑桦的《笑江湖》，无数影视片段与书中桥段在脑中浮现，终于鼓起勇气用一篇杂文以托对金庸的追思。</summary>
