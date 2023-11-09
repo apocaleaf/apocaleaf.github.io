@@ -6,7 +6,7 @@
   <link href="http://apocaleaf.github.io/atom.xml" rel="self"/>
   
   <link href="http://apocaleaf.github.io/"/>
-  <updated>2023-11-05T18:13:25.517Z</updated>
+  <updated>2023-11-09T18:02:53.193Z</updated>
   <id>http://apocaleaf.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于AI的一点杂想</title>
+    <link href="http://apocaleaf.github.io/2023/11/10/thoughts-in-ai/"/>
+    <id>http://apocaleaf.github.io/2023/11/10/thoughts-in-ai/</id>
+    <published>2023-11-09T18:01:48.000Z</published>
+    <updated>2023-11-09T18:02:53.193Z</updated>
+    
+    
+    
+    
+    <category term="随笔" scheme="http://apocaleaf.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="http://apocaleaf.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="AI" scheme="http://apocaleaf.github.io/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Octopus(应用于医院信息系统交付的分布式DevOps)(1)——动机</title>
+    <link href="http://apocaleaf.github.io/2023/11/10/octopus-purpose/"/>
+    <id>http://apocaleaf.github.io/2023/11/10/octopus-purpose/</id>
+    <published>2023-11-09T17:57:00.000Z</published>
+    <updated>2023-11-09T20:03:37.506Z</updated>
+    
+    
+    <summary type="html">本文是《Octopus》这个系列的前言，我计划未来花一段时间来架构一个分布式的DevOps系统，用于在类似医院这类客户，优雅的管理产品的交付和运维</summary>
+    
+    
+    
+    <category term="Octopus" scheme="http://apocaleaf.github.io/categories/Octopus/"/>
+    
+    
+    <category term="DevOps" scheme="http://apocaleaf.github.io/tags/DevOps/"/>
+    
+  </entry>
   
   <entry>
     <title>忆金庸</title>
