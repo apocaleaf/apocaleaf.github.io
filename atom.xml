@@ -6,7 +6,7 @@
   <link href="http://apocaleaf.github.io/atom.xml" rel="self"/>
   
   <link href="http://apocaleaf.github.io/"/>
-  <updated>2023-11-09T20:06:08.431Z</updated>
+  <updated>2023-11-17T04:50:40.713Z</updated>
   <id>http://apocaleaf.github.io/</id>
   
   <author>
@@ -17,11 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>一个关于区域互联网医院平台的面试题</title>
+    <link href="http://apocaleaf.github.io/2023/11/17/internet-hospital-interview-test/"/>
+    <id>http://apocaleaf.github.io/2023/11/17/internet-hospital-interview-test/</id>
+    <published>2023-11-17T04:01:47.000Z</published>
+    <updated>2023-11-17T04:50:40.713Z</updated>
+    
+    
+    <summary type="html">在面试过程中遇到的一个开放式问题，针对某卫健委主导的区域互联网医院平台的业务场景</summary>
+    
+    
+    
+    <category term="互联网+医疗" scheme="http://apocaleaf.github.io/categories/%E4%BA%92%E8%81%94%E7%BD%91-%E5%8C%BB%E7%96%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>一个分布式的DevOps系统Octopus(1)</title>
     <link href="http://apocaleaf.github.io/2023/11/10/octopus-purpose/"/>
     <id>http://apocaleaf.github.io/2023/11/10/octopus-purpose/</id>
     <published>2023-11-09T17:57:00.000Z</published>
-    <updated>2023-11-09T20:06:08.431Z</updated>
+    <updated>2023-11-17T05:56:36.604Z</updated>
     
     
     <summary type="html">本文是《Octopus》这个系列的前言，我计划未来花一段时间来架构一个分布式的DevOps系统，用于在类似医院这类客户群体中，优雅的管理产品的交付和运维</summary>

@@ -30,7 +30,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://apocaleaf.github.io/pic/octopus-purpose/octopus.png">
 <meta property="article:published_time" content="2023-11-09T17:57:00.000Z">
-<meta property="article:modified_time" content="2023-11-09T20:06:08.431Z">
+<meta property="article:modified_time" content="2023-11-17T05:56:36.604Z">
 <meta property="article:author" content="树滂的落叶">
 <meta property="article:tag" content="DevOps">
 <meta name="twitter:card" content="summary">
@@ -198,10 +198,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2023-11-10 01:57:00 / 修改时间：04:06:08" itemprop="dateCreated datePublished" datetime="2023-11-10T01:57:00+08:00">2023-11-10</time>
+              <time title="创建时间：2023-11-10 01:57:00" itemprop="dateCreated datePublished" datetime="2023-11-10T01:57:00+08:00">2023-11-10</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-11-17 13:56:36" itemprop="dateModified" datetime="2023-11-17T13:56:36+08:00">2023-11-17</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -225,7 +231,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>889</span>
+              <span>874</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -244,7 +250,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="为什么想做-Octopus"><a href="#为什么想做-Octopus" class="headerlink" title="为什么想做 Octopus"></a>为什么想做 Octopus</h1><p>我计划未来花一段时间来架构一个分布式的DevOps系统，用于在类似医院这类客户，优雅的管理产品的交付和运维，此类用户通常有以下特征：</p>
+        <h1 id="为什么想做-Octopus"><a href="#为什么想做-Octopus" class="headerlink" title="为什么想做 Octopus"></a>为什么想做 Octopus</h1><p>我计划未来花一段时间来架构一个分布式的 DevOps 系统，用于在类似医院这类客户，优雅的管理产品的交付和运维，此类用户通常有以下特征：</p>
 <ul>
 <li>客户的地域分散性强</li>
 <li>单个客户体量小，客户个体量大</li>
@@ -278,15 +284,34 @@
 <li>提供一个工单、看板系统便于研发团队与交付团队拉通目标</li>
 <li>“没有银弹”，期望技术解决所有问题终将成为泡影</li>
 </ul>
-<h1 id="开源工程地址"><a href="#开源工程地址" class="headerlink" title="开源工程地址"></a>开源工程地址</h1><p>这是一个开源架构，欢迎认同理念的人加入成为贡献者</p>
-<p>等我建了项目再上传，哈哈…</p>
-<h1 id="架构的路线图"><a href="#架构的路线图" class="headerlink" title="架构的路线图"></a>架构的路线图</h1><p>只有路线没有时间的路线图，本人时间有限，但是确保不烂尾</p>
-<h2 id="V0-1"><a href="#V0-1" class="headerlink" title="V0.1"></a>V0.1</h2><p>实现医院发布版本、代码管理版本管理</p>
-<h2 id="V0-2"><a href="#V0-2" class="headerlink" title="V0.2"></a>V0.2</h2><p>实现基于 Docker 实现云端到医院交付环境的自动化部署</p>
-<h2 id="V0-3"><a href="#V0-3" class="headerlink" title="V0.3"></a>V0.3</h2><p>实现交付配置中心，统一所有客户产品配置云管理</p>
-<h2 id="V0-4"><a href="#V0-4" class="headerlink" title="V0.4"></a>V0.4</h2><p>实现企业信息化系统集成，提供身份认证、权限分发等支持</p>
-<h2 id="V0-5"><a href="#V0-5" class="headerlink" title="V0.5"></a>V0.5</h2><p>实现工单系统</p>
-<h2 id="V0-6"><a href="#V0-6" class="headerlink" title="V0.6"></a>V0.6</h2><p>还不知道要做什么…</p>
+<h1 id="开源工程地址"><a href="#开源工程地址" class="headerlink" title="开源工程地址"></a>开源工程地址</h1><p>这是一个开源架构，欢迎认同理念的人加入成为贡献者<br>等我建了项目再上传，哈哈…</p>
+<h1 id="架构的路线图"><a href="#架构的路线图" class="headerlink" title="架构的路线图"></a>架构的路线图</h1><p>只有路线没有时间的路线图</p>
+<ul>
+<li>V0.1<ul>
+<li>实现医院发布版本、代码管理版本管理</li>
+</ul>
+</li>
+<li>V0.2<ul>
+<li>实现基于 Docker 实现云端到医院交付环境的自动化部署</li>
+</ul>
+</li>
+<li>V0.3<ul>
+<li>实现交付配置中心，统一所有客户产品配置云管理</li>
+</ul>
+</li>
+<li>V0.4<ul>
+<li>实现企业信息化系统集成，提供身份认证、权限分发等支持</li>
+</ul>
+</li>
+<li>V0.5<ul>
+<li>实现工单系统</li>
+</ul>
+</li>
+<li>V0.6<ul>
+<li>还不知道要做什么…</li>
+</ul>
+</li>
+</ul>
 
     </div>
 
@@ -325,7 +350,10 @@
     <a href="/2019/03/10/recalling-jin-yong/" rel="prev" title="忆金庸">
       <i class="fa fa-chevron-left"></i> 忆金庸
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2023/11/17/internet-hospital-interview-test/" rel="next" title="一个关于区域互联网医院平台的面试题">
+      一个关于区域互联网医院平台的面试题 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -384,7 +412,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%83%B3%E5%81%9A-Octopus"><span class="nav-number">1.</span> <span class="nav-text">为什么想做 Octopus</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%84%BF%E6%99%AF%E4%B8%8E%E7%9B%AE%E6%A0%87"><span class="nav-number">2.</span> <span class="nav-text">愿景与目标</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%BE%B9%E7%95%8C%E4%B8%8E%E5%89%8D%E6%8F%90"><span class="nav-number">3.</span> <span class="nav-text">边界与前提</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%80%E6%BA%90%E5%B7%A5%E7%A8%8B%E5%9C%B0%E5%9D%80"><span class="nav-number">4.</span> <span class="nav-text">开源工程地址</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9E%B6%E6%9E%84%E7%9A%84%E8%B7%AF%E7%BA%BF%E5%9B%BE"><span class="nav-number">5.</span> <span class="nav-text">架构的路线图</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#V0-1"><span class="nav-number">5.1.</span> <span class="nav-text">V0.1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#V0-2"><span class="nav-number">5.2.</span> <span class="nav-text">V0.2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#V0-3"><span class="nav-number">5.3.</span> <span class="nav-text">V0.3</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#V0-4"><span class="nav-number">5.4.</span> <span class="nav-text">V0.4</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#V0-5"><span class="nav-number">5.5.</span> <span class="nav-text">V0.5</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#V0-6"><span class="nav-number">5.6.</span> <span class="nav-text">V0.6</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%83%B3%E5%81%9A-Octopus"><span class="nav-number">1.</span> <span class="nav-text">为什么想做 Octopus</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%84%BF%E6%99%AF%E4%B8%8E%E7%9B%AE%E6%A0%87"><span class="nav-number">2.</span> <span class="nav-text">愿景与目标</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%BE%B9%E7%95%8C%E4%B8%8E%E5%89%8D%E6%8F%90"><span class="nav-number">3.</span> <span class="nav-text">边界与前提</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%80%E6%BA%90%E5%B7%A5%E7%A8%8B%E5%9C%B0%E5%9D%80"><span class="nav-number">4.</span> <span class="nav-text">开源工程地址</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9E%B6%E6%9E%84%E7%9A%84%E8%B7%AF%E7%BA%BF%E5%9B%BE"><span class="nav-number">5.</span> <span class="nav-text">架构的路线图</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -400,14 +428,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -463,12 +491,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">5k</span>
+    <span title="站点总字数">8k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">9 分钟</span>
+    <span title="站点阅读时长">15 分钟</span>
 </div>
         
 <div class="busuanzi-count">
